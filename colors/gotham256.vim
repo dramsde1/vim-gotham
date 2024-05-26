@@ -138,6 +138,12 @@ call s:Col('Number', 'orange')
 call s:Col('Statement', 'base5')
 call s:Col('Special', 'orange')
 call s:Col('Identifier', 'base5')
+call s:Col('Operator', 'base5')
+call s:Col('Delimiter', 'base6')
+call s:Col('Removed', 'red')
+call s:Col('Function', 'magenta')
+call s:Col('Changed', 'cyan')
+call s:Col('@variable', 'base6')
 
 " Constants, Ruby symbols.
 call s:Col('Constant', 'magenta')
